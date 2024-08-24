@@ -1,0 +1,35 @@
+
+create database jshell
+jshell in entrada
+jshell in saida
+return jshell,
+create database deposito(
+deposito in conta varchar(500),
+deposito in credito varchar(500),
+deposito in brl varchar(500),
+deposito in USD varchar(500),
+deposito in US varchar(500),
+deposito in R$ varchar(500),
+deposito in $ varchar(500),
+deposito in CPF varchar(500),
+deposito in email varchar(500),
+return deposito 
+)
+create database transferencia(
+    transferencia in TED varchar(500),
+    transferencia IN DOC varchar(500),
+    transferencia IN BRL varchar(500),
+    transferencia IN USD varchar(500),
+    transferencia IN US varchar(500),
+    transferencia IN CPF varchar(500),
+    return transferencia
+)
+create database cambio(
+    cambio in remessa varchar(500),
+    cambio in brl varchar(500),
+    cambio in us varchar(500),
+    cambio in usd varchar(500),
+    cambio in xrp varchar(500),
+    cambio in btc varchar(500),
+    return cambio
+)
